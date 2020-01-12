@@ -2,7 +2,7 @@ import unittest
 import stepik67
 
 
-class StepikTest(unittest.TestCase):
+class MyTest(unittest.TestCase):
     def test_minutesToHM_1(self):
         self.assertEqual(stepik67.minutes_from_hm(7, 30), 450)
 
