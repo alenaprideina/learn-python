@@ -2,7 +2,7 @@ import unittest
 import stepik67.lesson1 as L1
 
 
-class MyTest(unittest.TestCase):
+class ClockTestCase(unittest.TestCase):
     def test_minutesToHM_1(self):
         self.assertEqual(L1.minutes_from_hm(7, 30), 450)
 
